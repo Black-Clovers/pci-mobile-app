@@ -6,6 +6,7 @@ import {
   StyleSheet,
   View,
   Text,
+  Image,
   SafeAreaView
 } from 'react-native';
  
@@ -25,8 +26,12 @@ const SettingsScreen = ({ route, navigation }) => {
               textAlign: 'center',
               marginBottom: 16
             }}>
-            You are on Setting Screen
+           
           </Text>
+          <Image
+                  style={styles.image5}
+                  source={{uri: 'https://img.freepik.com/premium-vector/woman-boss-give-direction-employee-construction-site-boss-move-concept-colored-flat-graphic-vector-illustration-isolated_612079-1008.jpg'}}
+               />
           <TouchableOpacity
             style={styles.button}
             onPress={
@@ -70,6 +75,14 @@ const styles = StyleSheet.create({
     padding: 10,
     width: 300,
     marginTop: 16,
+  },
+
+  image5:{
+    width:400,
+    height:200,
+
+
+
   },
 });
 export default SettingsScreen;

@@ -130,7 +130,7 @@ function SettingsStack() {
       <Stack.Screen
         name="Settings"
         component={SettingsScreen}
-        options={{ title: 'Setting Page' }}/>
+        options={{ title: 'Order Page' }}/>
       <Stack.Screen
         name="Order"
         component={OrderScreen}

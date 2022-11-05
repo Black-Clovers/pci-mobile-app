@@ -31,8 +31,8 @@ const ProfileScreen = () => {
                />
               <View style={styles.inputcontainer}>
                 <View style={styles.setTextCenter }>
-                <Text style={styles.text1}>Company Name :</Text>
-                  <Text style={styles.text2}>                   PCI Constructions</Text>
+                <Text style={styles.text1}> Name :</Text>
+                  <Text style={styles.text2}>      sahanlak97@gmail.com</Text>
                 </View>
                 <View style={styles.inputcontainer2}>
                 <Text style={styles.text1}>Email :</Text>
@@ -45,7 +45,7 @@ const ProfileScreen = () => {
                 </View>
               
                 <View style={styles.inputcontainer4}>
-                <Text style={styles.text1}> :</Text>
+                <Text style={styles.text1}>                           :</Text>
                   <Text style={styles.text3}>               +94 76 466 8388</Text>
                 </View>
                

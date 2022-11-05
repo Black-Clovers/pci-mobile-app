@@ -13,17 +13,15 @@ const InventScreen=()=> {
                />
 
 
-           <Text style={styles.text1}>ID001</Text>
+           <Text style={styles.text1}>ID001   Sand</Text>
            <View>
-           <Text style={styles.text2}
-           > Sand </Text>
+           
            
           
-        <Text style={styles.text3}
-           > Quantity:</Text>
-    <Text style={
-     styles.text4
-           }>2 cubes</Text>
+        <Text style={styles.text3}> Quantity: 2 cubes</Text>
+  
+   
+    <Text style={styles.text6}>Date : 2022/01/10</Text>
 </View>
             </View>
 
@@ -59,26 +57,26 @@ const styles = StyleSheet.create({
         paddingLeft:30,
         paddingTop:50
     },
-    text2:{
-        fontSize:26,
-        fontWeight:'300',
-        paddingLeft:30,
-        paddingTop:-180
-
-
-
-
-    },
+   
     text3:{
         fontSize:22,
-        marginTop:20
+        marginTop:20,
+        marginLeft:10
 
     },
     text4:{
-        fontSize:20,
+        fontSize:18,
         paddingBottom:12,
+    paddingLeft:22,
         alignItems:"center"
     
+    },
+    text5:{
+        fontSize:15
+    },
+
+    text6:{
+        paddingLeft:10
     }
 
 })
