@@ -1,4 +1,4 @@
-import React, { Component } from 'react'
+/*import React, { Component } from 'react'
 
 export default class ContactScreen extends Component {
   render() {
@@ -8,4 +8,4 @@ export default class ContactScreen extends Component {
       </View>
     )
   }
-}
+}*/
